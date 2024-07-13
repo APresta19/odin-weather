@@ -1,0 +1,51 @@
+:root
+{
+    --darker: #222831;
+    --dark: #393E46;
+    --blue: #00ADB5;
+    --white: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
+}
+body
+{
+    background-color: var(--darker);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    display: flex;
+    gap: 200px;
+    background-color: var(--dark);
+    padding: 50px;
+    justify-content: space-between;
+}
+#header button
+{
+    font-size: 36px;
+    border-radius: 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-color: var(--darker);
+}
+#header button:hover
+{
+    border-color: var(--white);
+    cursor: pointer;
+}
+#header #right, #header #left
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#container
+{
+    padding: 50px;
+}
+input
+{
+    background-color: var(--white);
+
+}
